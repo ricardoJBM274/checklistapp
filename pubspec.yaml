@@ -1,0 +1,23 @@
+name: checklistapp
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0+1
+
+environment:
+  sdk: ^3.11.3
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+dependencies:
+  flutter:
+    sdk: flutter
+  image_picker: ^1.0.7 # Asegúrate de usar la última versión estable
+  path_provider: ^2.1.2 # Para encontrar carpetas seguras en el celular
+  path: ^1.9.0 # Para manejar rutas de archivos
+  pdf: ^3.10.8
+  printing: ^5.11.1
