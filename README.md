@@ -28,3 +28,30 @@ Sigue estos pasos para ejecutar el proyecto en tu entorno local:
 1. **Clonar el repositorio:**
    ```bash
    git clone [https://github.com/ricardoJBM274/checklistapp](https://github.com/tu-usuario/checklistapp.git)
+
+---
+
+## Especificaciones Técnicas
+
+### Arquitectura de la Aplicación
+La app utiliza una estructura de navegación jerárquica y gestión de estado local:
+1. **Vista de Proyectos (Dashboard):** Gestión de múltiples manuales.
+2. **Vista de Pasos (Detalle):** Organización interna de cada manual mediante `ReorderableListView`.
+3. **Editor de Pasos:** Formulario de captura multimedia y metadatos (Título/Descripción).
+
+### Gestión de Datos (Persistencia)
+Para garantizar el costo $0 y la privacidad, la app no utiliza bases de datos en la nube. En su lugar, implementa:
+- **JSON Local:** Los proyectos se serializan y guardan en `proyectos_v2.json` dentro del directorio de documentos del sistema.
+- **Sistema de Archivos:** Las imágenes capturadas se copian desde el directorio temporal del sistema a una ruta permanente interna de la app para evitar su borrado accidental.
+
+### Dependencias Clave
+```yaml
+dependencies:
+  image_picker: ^1.0.7    # Captura de fotos y acceso a galería
+  path_provider: ^2.1.2   # Localización de carpetas de sistema
+  path: ^1.9.0            # Manipulación de rutas de archivos
+  pdf: ^3.10.8            # Motor de generación de documentos PDF
+  printing: ^5.11.1       # Previsualización y envío a impresión
+---
+### 👨‍💻 Autor
+Ricardo Javier Beltran Estudiante de Desarrollo de Software - Universidad Luterana Salvadoreña Enfocado en la optimización de procesos.
