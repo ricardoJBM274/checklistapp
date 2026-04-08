@@ -27,4 +27,4 @@ Sigue estos pasos para ejecutar el proyecto en tu entorno local:
 
 1. **Clonar el repositorio:**
    ```bash
-   git clone [https://github.com/ricardoJBM274/checklistapp](https://github.com/tu-usuario/manuales-app.git)
+   git clone [https://github.com/ricardoJBM274/checklistapp](https://github.com/tu-usuario/checklistapp.git)
