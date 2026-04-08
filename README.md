@@ -1,5 +1,8 @@
 # Checklistapp
 
+### Autor
+Ricardo Javier Beltran Estudiante de Desarrollo de Software - Universidad Luterana Salvadoreña Enfocado en la optimización de procesos.
+
 **Checklistapp** es una aplicación móvil desarrollada con **Flutter** y **Dart** diseñada para profesionales y técnicos que necesitan documentar procesos paso a paso. La aplicación permite crear múltiples manuales, organizar pasos de forma visual con fotografías y descripciones, y exportar el resultado final a un documento **PDF** listo para compartir.
 
 Este proyecto nació como un ejercicio de aprendizaje autónomo sobre la **IA Agéntica** y la optimización de procesos productivos en 2026.
@@ -52,6 +55,6 @@ dependencies:
   path: ^1.9.0            # Manipulación de rutas de archivos
   pdf: ^3.10.8            # Motor de generación de documentos PDF
   printing: ^5.11.1       # Previsualización y envío a impresión
----
-### 👨‍💻 Autor
-Ricardo Javier Beltran Estudiante de Desarrollo de Software - Universidad Luterana Salvadoreña Enfocado en la optimización de procesos.
+
+
+      
